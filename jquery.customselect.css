@@ -1,0 +1,27 @@
+/* CSS Reset */
+html, body { margin: 0; padding: 0}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; text-align: left}
+table { border-collapse: collapse; border-spacing: 0}
+ol, ul { list-style: none}
+
+html,body{ height: 100%; width: 100%}
+body{ font:12px Arial, Helvetica, sans-serif; color:#666}
+
+.wrapper-100 { width: 100px; }
+.wrapper-200 { width: 200px; }
+.wrapper-300 { width: 300px; }
+
+.custom-select { position: relative} 
+.custom-select .select { width: 100%; height: 22px;	line-height: 22px; cursor: pointer; background: #4E4E4E; background: -moz-linear-gradient(top, #4E4E4E 0%, #3A3A3A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4E4E4E), color-stop(100%,#3A3A3A));	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4E4E4E', endColorstr='#3A3A3A',GradientType=0 ); text-overflow: ellipsis; white-space: nowrap; overflow: hidden; font-size: 11px; color: #fff; text-shadow: 1px 1px 1px #000; -webkit-box-shadow: inset 0px 1px 0px #6e6e6e; -moz-box-shadow: inset 0px 1px 0px #6e6e6e; -o-box-shadow: inset 0px 1px 0px #6e6e6e; box-shadow: inset 0px 1px 0px #6e6e6e; border: 1px solid #000000; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px}
+.custom-select .select span.content { padding-left: 8px; }
+.custom-select .select.gray { background: #FCFCFC; background: -moz-linear-gradient(top, #FCFCFC 0%, #DFDCD8 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCFCFC), color-stop(100%,#DFDCD8)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', endColorstr='#DFDCD8',GradientType=0 ); color: #6c6c6b !important; text-shadow: none !important; -webkit-box-shadow: inset 0px 1px 0px #fdfdfd; -moz-box-shadow: inset 0px 1px 0px #fdfdfd; -o-box-shadow: inset 0px 1px 0px #fdfdfd; box-shadow: inset 0px 1px 0px #fdfdfd; border: 1px solid #dfdcd8; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px}
+.custom-select .select .arrow-up { position: absolute; right: 8px; top: 13px; width: 0px; height: 0px; border-width: 3px; border-style: solid; border-color: #e4e4e4 transparent transparent transparent}
+.custom-select .select .arrow-down { position: absolute; right: 8px; bottom: 13px; width: 0px; height: 0px; border-width: 3px; border-style: solid; border-color: transparent transparent #e4e4e4 transparent}
+.custom-select .select.gray .arrow-up { border-color: #acacab transparent transparent transparent}
+.custom-select .select.gray .arrow-down { border-color: transparent transparent #acacab transparent}
+.custom-select ul { display: none; position: absolute; top: 22px; left: 0; z-index: 1; background-color: #424242; padding: 3px 0; width: 100%; text-align: left; border: 1px solid #000; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px}
+.custom-select ul.gray { background-color: #eceae8 !important; border: 1px solid #dfdcd8 !important}
+.custom-select ul li { padding: 4px 8px 5px 8px; line-height: 14px; font-size: 11px !important; color: #fff; text-shadow: 1px 1px 1px #000; cursor: pointer}
+.custom-select ul li:hover { background-color: #fff; color: #000; text-shadow: none}
+.custom-select ul.gray li { color: #6c6c6b !important; text-shadow: none !important}
+.custom-select input { position: absolute; top: 3px; left: 3px; z-index: -1; height: 1px !important; width: 1px !important; border: 0 !important; background: none !important; overflow: hidden !important}
