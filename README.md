@@ -1,6 +1,6 @@
 # jQuery CSS 3 CustomSelect #
 
-This is a small and easy custom select jQuery plugin, which I have done with CSS 3 and without using any images. It's tested with jQuery 1.5.2
+This is a small and easy custom select jQuery plugin, which I have done with CSS 3 and without using any images. It's tested with jQuery 1.5.2.
 
 ## Basics ##
 

@@ -1,5 +1,5 @@
 /**
- * @license jQuery CustomSelect V.0.1
+ * @license jQuery CSS 3 CustomSelect V.0.1
  * 
  * NO COPYRIGHTS OR LICENSES. DO WHAT YOU LIKE.
  * 
